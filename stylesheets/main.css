@@ -16,3 +16,15 @@ ul {
   padding: 0;
 }
 
+.masthead {
+  width: 90%;
+  max-width: 1200px;
+}
+
+.masthead h1 {
+  text-align: center;
+}
+
+.byline {
+  text-align: center;
+}
