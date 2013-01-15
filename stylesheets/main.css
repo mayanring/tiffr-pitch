@@ -10,6 +10,7 @@ body {
 }
 
 
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -19,12 +20,19 @@ ul {
 .masthead {
   width: 90%;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
-.masthead h1 {
+.title {
   text-align: center;
 }
 
 .byline {
   text-align: center;
+}
+
+.contained {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
 }
