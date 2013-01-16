@@ -2,31 +2,41 @@ body {
   background-color: #fff;
   color: #363636;
 
-  font-size: 16px;
   line-height: 1.2em;
   width: 100%;
 
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
 .menu {
   margin: 0;
-  padding: 0;
+  padding: 2em 0 1em;
   list-style-type: none;
+  text-align: center;
+}
+
+.menu > li {
+  /*display: inline-block;*/
+  margin: 0.5em;
 }
 
 .masthead {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
+  color: #f6f6f6;
+  background-color: rgb(142, 209, 230);
 }
 
-.title {
+.headline {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0.5em 0 0;
   text-align: center;
 }
 
 .byline {
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0;
   text-align: center;
 }
 
