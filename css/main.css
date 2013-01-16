@@ -45,3 +45,39 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
+.list > li {
+  margin: 1em 0;
+}
+
+.list-icons {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-icons > li {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.list-icons > li > [class^='icon-'] {
+  display: inline-block;
+  width: 13%;
+  font-size: 1.35em;
+  margin: 1px 0 0;
+  vertical-align: top;
+}
+
+.list-icons > li > p {
+  display: inline-block;
+  width: 85%;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .menu > li {
+    display: inline-block;
+  }
+}
