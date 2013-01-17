@@ -22,7 +22,7 @@ body {
 }
 
 .masthead {
-  color: #f6f6f6;
+  color: #fff;
   background-color: rgb(142, 209, 230);
 }
 
@@ -43,7 +43,7 @@ body {
 .contained {
   max-width: 600px;
   width: 90%;
-  margin: 0 auto;
+  margin: 2em auto 3em;
 }
 
 .list > li {
