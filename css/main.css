@@ -74,7 +74,6 @@ body {
   font-size: 28px;
   margin: 1px 0 0;
   vertical-align: top;
-  text-align: left;
 }
 
 .list-icons > li > .icon-mobile-phone {
@@ -89,8 +88,10 @@ body {
 }
 
 .bullet {
+  box-sizing: border-box;
   display: inline-block;
   width: 85%;
+  padding-left: 0.5em;
 }
 .bullet-point {
   margin: 0 0 -0.35em;
