@@ -42,13 +42,13 @@ body {
 
 .tagline {
   font-size: 2em;
-  line-height: 1;
+  line-height: 1.2;
   font-weight: 300;
 }
 
 .contained {
   max-width: 600px;
-  width: 90%;
+  width: 89%;
   margin: 2em auto 3em;
 }
 
@@ -70,10 +70,11 @@ body {
 
 .list-icons > li > [class^='icon-'] {
   display: inline-block;
-  width: 13%;
+  width: 9%;
   font-size: 28px;
   margin: 1px 0 0;
   vertical-align: top;
+  text-align: left;
 }
 
 .list-icons > li > .icon-mobile-phone {
