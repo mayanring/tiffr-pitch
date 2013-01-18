@@ -40,6 +40,12 @@ body {
   text-align: center;
 }
 
+.tagline {
+  font-size: 2em;
+  line-height: 1;
+  font-weight: 300;
+}
+
 .contained {
   max-width: 600px;
   width: 90%;
@@ -68,6 +74,11 @@ body {
   font-size: 28px;
   margin: 1px 0 0;
   vertical-align: top;
+}
+
+.list-icons > li > .icon-mobile-phone {
+  font-size: 42px;
+  margin: -2px 0 0;
 }
 
 .list-icons > li > p {
