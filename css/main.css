@@ -36,6 +36,13 @@ a:active {
   padding: 1em 5.555%;
 }
 
+.panel-title {
+  font-size: 4em;
+  line-height: 1;
+  margin: 0.5em 0 0.75em;
+  border-bottom: 5px solid #F2E966;
+}
+
 .frame {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
