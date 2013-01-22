@@ -135,6 +135,12 @@ a:active {
   }
 }
 
+@media screen and (min-width: 950px) {
+  .tagline {
+    padding: 0 15%;
+  }
+}
+
 #features {
   background: #1AC6D9;
   background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.15) 85%, rgba(0,0,0,0.15) 100%), #1AC6D9; /* FF3.6+ */
