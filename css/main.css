@@ -37,7 +37,7 @@ a:active {
 }
 
 .panel-title {
-  font-size: 4em;
+  font-size: 3em;
   line-height: 1;
   margin: 0.5em 0 0.75em;
   border-bottom: 5px solid #fff;
@@ -51,7 +51,7 @@ a:active {
   box-sizing: border-box;
   width: 100%;
   position: absolute;
-  top: 25%;
+  top: 12.5%;
   left: 0%;
   padding: 0 5.555%;
   text-align: center;
@@ -93,7 +93,7 @@ a:active {
 }
 
 .headline > p {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 100;
   margin: 0 4px 0;
   text-align: left;
@@ -101,18 +101,17 @@ a:active {
 }
 
 .headline > .title {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 300;
   line-height: 1;
   margin: 0;
 }
 
 .byline {
-  font-size: 1.75em;
+  font-size: 1.25em;
   font-weight: 100;
   margin: 0.5em 0 1em;
   text-align: center;
-  letter-spacing: 0.05em;
   line-height: 1.1;
 }
 
@@ -265,21 +264,51 @@ a:active {
 
 .bullet-point {
   margin: 0;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1;
   text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
 }
 
 .bullet > p {
-  line-height: 1.25;
+  line-height: 1.2;
   font-weight: 200;
-  font-size: 1.35em;
+  font-size: 1.25em;
   margin-top: 0.5em;
 }
 
 @media screen and (min-width: 640px) {
+  .frame {
+    top: 25%;
+  }
+
+  .headline > p {
+    font-size: 1.5em;
+  }
+
+  .headline > .title {
+    font-size: 5em;
+  }
+
+  .byline {
+    font-size: 1.75em;
+    letter-spacing: 0.05em;
+  }
+
   .tagline {
     display: block;
+  }
+
+  .panel-title {
+    font-size: 4em;
+  }
+
+  .bullet-point {
+    font-size: 2em;
+  }
+
+  .bullet > p {
+    line-height: 1.25;
+    font-size: 1.35em;
   }
 }
 
