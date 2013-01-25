@@ -48,6 +48,12 @@ a:active {
   text-shadow: 0 -1px 1px rgba(0,0,0,0.2);
 }
 
+.panel-intro {
+  font-size: 1.5em;
+  line-height: 1.1;
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.2);
+}
+
 .frame {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -253,10 +259,6 @@ a:active {
   margin: 0;
 }
 
-.list-icons > .screenshot > .icon-chevron-right {
-    margin-left: -1.5em;
-}
-
 .bullet {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -276,23 +278,31 @@ a:active {
 
 .bullet > p {
   line-height: 1.2;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1.25em;
   margin-top: 0.5em;
+  text-shadow: 0 0 1px rgba(0,0,0,0.35);
 }
 
-.screenshot {
-  display: none;
-  padding: 0 4% 0 8%;
-}
-
-.screenshot > .bullet {
-  width: 100%;
+.bullet > p > a {
+  text-shadow: none;
 }
 
 .bullet > img {
   box-shadow: 0 0px 8px 1px rgba(0,0,0,0.25);
   border-radius: 5px;
+}
+
+.list-media {
+  display: none;
+}
+
+.list-icons .icon-chevron-right {
+  padding-top: 1em;
+}
+
+.twitter-tweet  {
+  width: 99%;
 }
 
 
@@ -320,6 +330,11 @@ a:active {
 
   .panel-title {
     font-size: 4em;
+  }
+
+  .panel-intro {
+    font-size: 2.25em;
+    line-height: 1.2;
   }
 
   .bullet-point {
@@ -357,10 +372,6 @@ a:active {
     vertical-align: top;
   }
 
-  /*.screenshot {
-    display: inline-block;
-  }
-*/
   .list-icons > li > [class^='icon-'] {
     font-size: 40px;
   }
@@ -371,6 +382,10 @@ a:active {
 
   .bullet {
     font-size: 0.9em;
+  }
+
+  .bullet.no-icon {
+    margin-left: 14%;
   }
 
   #features > .panel-title,
