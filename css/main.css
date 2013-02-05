@@ -21,7 +21,7 @@ img {
 a,
 a:visited {
   color: #000;
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 
 a:hover,
@@ -87,7 +87,7 @@ p > a {
 }
 
 .icon-active:hover {
-  color: #3333EE;
+  color: #000;
   cursor: pointer;
   text-decoration: none;
 }
@@ -103,6 +103,10 @@ p > a {
   background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 55%,rgba(0,0,0,0.15) 85%,rgba(0,0,0,0.15) 100%), #7B8FC2; /* IE10+ */
   background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 55%,rgba(0,0,0,0.15) 85%,rgba(0,0,0,0.15) 100%), #7B8FC2; /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#26000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#intro a {
+  text-decoration: none;
 }
 
 .headline {
@@ -148,6 +152,10 @@ p > a {
   -o-transition: all 0.1s ease-out;
   -ms-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out;
+}
+
+#intro .tagline > a:hover {
+  text-decoration: underline;
 }
 
 .logo-rushline {
